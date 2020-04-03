@@ -35,7 +35,7 @@ val view = LinkPreviewer(this)
 
 ## Get View
 ```kotlin
-view.getView("https://github.com", R.drawable.ic_launcher_foreground, 
+val layout = view.getView("https://github.com", R.drawable.ic_launcher_foreground, 
             R.string.app_name,R.string.app_name, R.string.app_name)
 ```
 
@@ -58,7 +58,8 @@ getView(link: String, defaultImageRes: Int, defaultTitleRes: Int,
 getLinkView(): TextView
 ```
 
-## You can Customize link view use `getLinkView()` method.
+## You can Customize LinkView use `getLinkView()` method.
+## You can Customize All Views use `getView(...)` method.
 
 ### If you use `setUseChromeTab` method true,<br>you need to implementation customtabs library.
 
