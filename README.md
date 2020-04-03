@@ -1,6 +1,11 @@
-# KakaoStyle-LinkPreviewer
-Link Previewer based on kakaoTalk Style.
+![Logo](https://raw.githubusercontent.com/sungbin5304/KakaoStyle-LinkPreviewer/master/logo.png)
 
+-----
+
+# Preview [[APK]](https://github.com/sungbin5304/KakaoStyle-LinkPreviewer/raw/master/app-debug.apk)
+<div>
+<img src="https://raw.githubusercontent.com/sungbin5304/KakaoStyle-LinkPreviewer/master/KakaoTalk_20200403_223946952.png" width="400" height="650">
+</div>
 
 # Download [![](https://jitpack.io/v/sungbin5304/KakaoStyle-LinkPreviewer.svg)](https://jitpack.io/#sungbin5304/KakaoStyle-LinkPreviewer)
 
