@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="link_preview">https://www.naver.com</string>
+    <string name="link_image">Link Image</string>
+    <string name="github_description">Build software better, together.</string>
+    <string name="github_description_two">Github is where people build source...</string>
+    <string name="site_address">naver.com</string>
+</resources>

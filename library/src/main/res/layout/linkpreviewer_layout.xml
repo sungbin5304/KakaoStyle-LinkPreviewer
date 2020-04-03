@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linkpreviwer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/tv_link"
+        android:background="@drawable/rounded_textview"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlue"
+        android:text="@string/link_preview"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_main"
+        android:layout_marginTop="8dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:id="@+id/ly_cardview_main"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:contentDescription="@string/link_image"
+                android:id="@+id/iv_link"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="185dp"
+                android:src="@drawable/link_background_preview"/>
+
+            <TextView
+                android:id="@+id/link_title"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/github_description"/>
+
+            <TextView
+                android:id="@+id/link_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/colorGray"
+                android:text="@string/github_description_two"/>
+
+            <TextView
+                android:layout_marginTop="1dp"
+                android:id="@+id/link_url"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/site_address"
+                android:paddingStart="9dp"
+                android:paddingEnd="9dp"
+                android:textColor="@color/colorLightGray"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
