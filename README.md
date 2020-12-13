@@ -2,6 +2,11 @@
 
 -----
 
+# Dirty Project, Don't use this!
+## Project for Practice Programming Skill
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 # Preview [[APK]](https://github.com/sungbin5304/KakaoStyle-LinkPreviewer/raw/master/app-debug.apk)
 <div>
 <img src="https://raw.githubusercontent.com/sungbin5304/KakaoStyle-LinkPreviewer/master/KakaoTalk_20200403_223946952.png" width="400" height="650">
